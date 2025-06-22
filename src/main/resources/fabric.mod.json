@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "tokenlogin",
+  "version": "${version}",
+
+  "name": "Tokenlogin",
+  "description": "An auth mod that allows you to log in to mctoken",
+  "authors": [
+    "Yorau1337"
+  ],
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "wtf.yoraudev.ruby.TokenLogin"
+      }
+    ]
+  },
+  "mixins": [
+    "tokenlogin.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-language-kotlin": ">=${fabric_kotlin_version}"
+  }
+}
