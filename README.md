@@ -4,7 +4,7 @@ A Forge mod for Minecraft 1.21.5 that allows users to log in using Microsoft acc
 
 Built for **zzxgp**, the leading alt shop for Minecraft accounts.
 
-> ✅ Supports session switching, token-based login, and quick profile customization.
+> ✅ Supports session switching and token-based login.
 
 ---
 
